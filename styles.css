@@ -7,9 +7,9 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background:white;
 }
 /* Link Styles */
 
@@ -57,10 +57,12 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/bg_header.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
+  padding-bottom: 60px;
+  
 }
 header {
   line-height: 1.5;
@@ -70,23 +72,19 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
-  padding: 10px;
+  color: white;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  color: white;
 }
 .card {
   margin: 30px;
@@ -94,30 +92,34 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
   transition: all .5s;
+  box-shadow: 1px 1px 20px 10px #f0f0f0;
+  border-radius: 20px;
+  transition: transform 0.5s; /* Animation */
+
 }
 .card:hover {
-  border-color: #ff99ff;
+  transform: scale(1.1);
 }
 
 ul.skills {
   padding: 0;
-  text-align: center;
+  text-align: left;
 }
 
 .skills li {
-  border-radius: 6px;
+  border-radius: 100px;
   display: inline-block;
-  background: #ff9904;
-  color: white;
-  padding: 5px 10px;
+  background: #fcf87b;
+  color: black;
+  padding: 5px 12px;
   margin: 2px;
+  font-weight: 700;
+  margin-bottom: 5px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #86ffd9;
 }
 
 footer {
