@@ -23,9 +23,25 @@ a:hover {
 
 /* Section Styles */
 
+.card figure{
+  margin: 0px;
+}
+
+.card figcaption{
+  font-size: 12px;
+}
+
+.card h2{
+  margin-bottom: 5px;
+}
+
+.card p{
+  margin: 12px 0px 12px 0px;
+}
+
 .main-nav {
   width: 100%;
-  background: black;
+  background: white;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -34,7 +50,7 @@ a:hover {
 .nav {
   display: flex;
   justify-content: space-around;
-  font-weight: 700;
+  font-weight: 500;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
@@ -43,7 +59,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: black;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -100,6 +116,18 @@ header .profile-image:hover {
 }
 .card:hover {
   transform: scale(1.1);
+}
+
+img.content-photo {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 12px 0px 12px 0px;
+  border: 2px dashed yellow;
+}
+
+.informations {
+  margin-bottom: 32px;
+
 }
 
 ul.skills {
