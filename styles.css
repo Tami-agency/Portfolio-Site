@@ -78,8 +78,22 @@ header {
   overflow: hidden;
   padding-top: 60px;
   padding-bottom: 60px;
-  
 }
+
+
+.small-header{
+  text-align: center;
+  min-height: 300px;
+  max-height: 450px;
+}
+
+header .page-title{
+  color: white;
+  margin: 10px auto;
+  vertical-align: middle;
+  display: table;
+}
+
 header {
   line-height: 1.5;
 }
@@ -148,6 +162,29 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #86ffd9;
+}
+
+.timeline{
+  list-style: none;
+  padding: 0px;
+  display: inline-block;
+}
+.timeline li{
+  color: black;
+  text-align: left;
+}
+
+.timeline h3{
+  margin: 0px;
+}
+
+.timeline p{
+  margin: 0px;
+}
+
+.job-icon{
+  height: 50px;
+  width: 50px;
 }
 
 footer {
